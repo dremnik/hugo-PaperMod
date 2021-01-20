@@ -169,6 +169,10 @@
   margin: 0;
 }
 
+.post-content .highlight {
+  margin: 10px auto;
+}
+
 .post-content .highlighttable {
   table-layout: fixed;
 }
@@ -217,7 +221,7 @@
 .post-content blockquote {
   margin: 0 0;
   padding: 0 14px;
-  border-inline-start: 2px solid var(--primary);
+  border-inline-start: 3px solid var(--primary);
 }
 
 .post-content hr {
