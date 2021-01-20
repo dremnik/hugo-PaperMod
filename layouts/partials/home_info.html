@@ -1,5 +1,8 @@
 {{- with $.Site.Params.homeInfoParams }}
 <article class="first-entry home-info">
+    <div class="profile-pic">
+        <img src={{ .profileImage }}></img>
+    </div>
     <header class="entry-header">
         <h2>{{- .Title | markdownify }}</h2>
     </header>
